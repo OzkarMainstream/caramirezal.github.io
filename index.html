@@ -21,15 +21,13 @@
 </head>
 <body >
        <!-- NAV SECTION -->
-    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
           <a class="navbar-brand" href="#">caRamirezAl</a>
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle btn btn-light" data-toggle="collapse" data-target="#mymenu" aria-controls="mymenu" aria-expanded="false" aria-label="Toggle navigation">
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mymenu" aria-controls="mymenu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
-            </div>
-            <div class="collapse navbar-collapse" id="mymenu">
-                <div class="navbar-nav navbar-right text-right">
+            <div class="collapse navbar-collapse justify-content-end" id="mymenu">
+                <div class="navbar-nav text-right">
                     <a class="nav-item nav-link active" href="index.html">HOME</a>
                     <a class="nav-item nav-link" href="CVU.html">CV</a>
                     <a class="nav-item nav-link" href="projects.html">PROJECTS</a>
@@ -38,16 +36,18 @@
             </div>
     </nav>
      <!--END NAV SECTION -->
-  
+    <div class="container">
     <!--HOME SECTION-->
     <div id="home-sec">
    
     <div class="container" id="home">
-        <div class="row text-center g-pad-bottom">
-            <div class="col-xs-12">
-                <span class="head-main">WELCOME</span>
+        <div class="row">
+            <div class="align-self-center col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="text-center" id="head-main">WELCOME</div>
             </div>
-                <p>This is an academic web page project. Its aim is to provide tools for modeling biological processes.</p>
+            <div class="align-self-center col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <p class="text-center">This is an academic web page project. Its aim is to provide tools for modeling biological processes.</p>
+            </div>
         </div>
     </div>
         
@@ -105,16 +105,13 @@ I studied biology at the National University Of Mexico. I am currently doing my 
                 </div>
                 
             </div>
-            
-<figure>
-    <a href="https://github.com/caramirezal/SQUAD">  
-        <img src="test.jpg"> 
+            <!--
+    <a href="https://github.com/caramirezal/SQUAD"> 
+        <img src="test.jpg" class="img-responsive"> 
     </a>
+-->
 
-    <!--
-<figcaption> <b> Binary decision diagram representation of an asynchronous <br> transitions in a Boolean Regulatory Network Model. </b> </figcaption>
-  -->  
-</figure>
+<figcaption>Binary decision diagram representation of an asynchronous <br> transitions in a Boolean Regulatory Network Model.</figcaption>
             <p>
             Curious about it? <a href="https://github.com/caramirezal/SQUAD">
                               See</a>.
@@ -154,8 +151,8 @@ I studied biology at the National University Of Mexico. I am currently doing my 
     <div id="footer">
         2017 https://caramirezal.github.io | &copy;All Rights Reserved.  
     </div>
+    </div>
     <!-- END FOOTER SECTION -->
-
     <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
     <!-- CORE JQUERY  -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -167,6 +164,7 @@ I studied biology at the National University Of Mexico. I am currently doing my 
     <script src="assets/js/custom.js"></script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
+<!--
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109428906-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -175,6 +173,6 @@ I studied biology at the National University Of Mexico. I am currently doing my 
 
   gtag('config', 'UA-109428906-1');
 </script>
-
+-->
 </body>
 </html>

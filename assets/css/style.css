@@ -1,6 +1,11 @@
 body {
 	background: #222;
 	color: #eee;
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+    width: 100%;
+    font-size: 120%;
 }
 .nav-link:focus, .nav-link:hover {
 	background-color: #e2e6ea;
@@ -9,12 +14,62 @@ body {
 .navbar-nav .nav-link {
 	padding-right: 1rem;
 }
+.navbar-nav {
+    font-size: 1.1em;
+}
+.navbar-brand {
+    font-size: 1.6em;
+    padding-left: 1.6em;
+}
 ul li {
 	display: inline-block;
 }
-ul li a {
+p a {
 	color: #f0a;
 }
-a img {
-	max-width: 500px;
+p a:hover {
+    color: #fff;
+    background: #443;
 }
+figure {max-width: 300px;;
+        overflow: hidden;}
+#home-sec {
+    background-color: #555;
+    border: 1px solid red;
+}
+#head-main {
+    font-size: 2em;
+    font-weight: bold;
+    padding-top: 1em;
+    padding-bottom: .4em;
+    border: 1px solid blue;
+}
+.container {
+    border: 1px solid #fff;
+}
+#home div p.text-center {
+    font-size: 1.2em;
+    border: 1px solid #fff;
+    max-width: 652px;
+    
+/*    margin-left: 15%;*/
+}
+
+
+/* Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) { }*/
+
+/*Medium devices (tablets, 768px and up)
+@media ( max-width: 768px) { }*/
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    #home div p.text-center {
+        margin-left: 14%;
+        }
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    #home div p.text-center {
+        margin-left: 20%;    
+    }
